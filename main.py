@@ -94,9 +94,3 @@ def start_quiz():
 def hello():
     return render_template('index.html', decks=getDecks(), tags=getTags())
 
-
-#cards = getCards("CyberopsAllQuestions")
-#shuffle(cards)
-#cards = pickUpRandom(n=2, cards=cards)
-#print(getInfos(cards))
-
